@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000007",
-	"version": "1.0.202003091124",
+	"version": "1.0.202003091257",
 	"description": "获取地址栏参数值",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
