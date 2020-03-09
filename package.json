@@ -37,7 +37,11 @@
 	],
 	"license": "MIT",
 	"dependencies": {},
+	"peerDependencies": {
+		"@mmstudio/an000002": "*"
+	},
 	"devDependencies": {
+		"@mmstudio/an000002": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",

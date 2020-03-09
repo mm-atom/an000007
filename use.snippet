@@ -1,7 +1,6 @@
 	// 获取地址栏参数值
-	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const param1 = $1;	// todo add param description
-		const param2 = $2;	// todo add param description
-		const param3 = $3;	// todo add param description
-		return an7(param1, param2, param3);
+	const r$CURRENT_SECONDS_UNIX = (() => {
+		const key = '$1';	// url参数名
+		const default_value = $2;	// 默认值,如果不希望使用默认值，可以删除该参数或者传入空值
+		return an7(mm, key, default_value);
 	})();
